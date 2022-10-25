@@ -1,0 +1,3 @@
+C:\Users\xander\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid\Definitions.Arcanoid.h
+C:\Users\xander\Documents\Unreal Projects\Arcanoid\Source\Arcanoid\Brick.h
+C:\Users\xander\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Inc\Arcanoid\Brick.generated.h
