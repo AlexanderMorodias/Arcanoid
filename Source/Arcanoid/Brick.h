@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Brick.generated.h"
 
+class UBoxComponent;
 UCLASS()
 class ARCANOID_API ABrick : public AActor
 {
@@ -18,11 +19,21 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UStaticMeshComponent* SM_Brick;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UBoxComponent* BoxCollision;
+
+	float SpeedModifierOnBounce = 1.01f;
+
+	UFUNCTION()
+		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndexType, bool bFromSweet, const FHitResult& SweepResult);
+
+	void DestroyBrick();
+
+
 
 
 public:	

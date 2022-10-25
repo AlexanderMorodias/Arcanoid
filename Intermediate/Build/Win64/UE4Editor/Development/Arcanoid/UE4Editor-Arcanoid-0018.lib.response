@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-Arcanoid-0016.dll"
+/NAME:"UE4Editor-Arcanoid-0018.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\xander\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\ArcanoidEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
@@ -20,4 +20,4 @@
 "C:\Users\xander\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid\Paddle.gen.cpp.obj"
 "C:\Users\xander\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid\PaddlePlayerController.gen.cpp.obj"
 "C:\Users\xander\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid\Default.rc2.res"
-/OUT:"C:\Users\xander\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid\UE4Editor-Arcanoid-0016.lib"
+/OUT:"C:\Users\xander\Documents\Unreal Projects\Arcanoid\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid\UE4Editor-Arcanoid-0018.lib"
